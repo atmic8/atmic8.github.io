@@ -471,7 +471,6 @@ let render = () => {
 window.onload = () => {
   addSphere();
   addCloud();
-  document.addEventListener("click", addInteraction);
   createLight();
   createtree();
   // addText();
